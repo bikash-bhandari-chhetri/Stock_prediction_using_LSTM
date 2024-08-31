@@ -49,7 +49,7 @@ pip install -r requirements.txt
 * *requirements.txt:* txt file containing all the required dependencies
 
 ## Usage
-**Running Notebooks**
+**Running Notebooks:**
 Each Jupyter notebook handles a different stage of the project:
 1. **Data Cleaning (Stock_Prediction_using_LSTM(Data_Cleaning).ipynb):** This notebook is responsible for preparing the raw dataset for further analysis. It involves:
 * **Checking for Missing Values:** Identifying and handling missing data by imputation.
