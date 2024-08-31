@@ -2,7 +2,7 @@
 This project aims to predict the next day's closing price of a stock using historical stock data. The prediction model is built using a Long Short-Term Memory (LSTM) network, a type of recurrent neural network (RNN) particularly effective for time-series forecasting tasks.
 
 ## Table of Contents
-- [Overvuew](#overview)
+- [Overview](#overview)
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
