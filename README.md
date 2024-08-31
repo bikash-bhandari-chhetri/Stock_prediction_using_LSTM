@@ -39,8 +39,7 @@ pip install -r requirements.txt
 * Stock_Prediction_using_LSTM(Data_Preprocessing).ipynb: Jupyter notebook for data preprocessing
 * Stock_Prediction_using_LSTM(Data_Visualization).ipynb: Jupyter notebook for data visualization
 * Stock_Prediction_using_LSTM(Model_Building_and_Training)ipynb.ipynb: Jupyter notebook for model building   and training
-* Stock_Prediction_using_LSTM(Model_Evaluation_and_Prediction).ipynb: Jupyter notebook for model           
-evaluation and prediction
+* Stock_Prediction_using_LSTM(Model_Evaluation_and_Prediction).ipynb: Jupyter notebook for model evaluation and prediction
 * scaler.pkl: Scaler object for data normalization
 * lstm_stock_price_model.keras: Trained LSTM model
 * app.py: Streamlit app script
