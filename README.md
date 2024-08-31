@@ -97,3 +97,13 @@ To run these notebooks, open them in Google Colab, Jupyter Notebook or Jupyter L
 
 * **Visualizing Stock Price Trends:** Shows how the stock prices (open and closing values) change over time.
 ![Stock_Price_trend_open_values](Stock_Price_trend_open_values.png)
+![Stock_Price_trend_closing_values](Stock_Price_trend_closing_values.png)
+
+* **Correlation Heatmap:** Displays correlations between numerical features, helping to understand which features might be more predictive.
+![Correlation_Heatmap](Correlation_Heatmap.png)
+
+* **Distribution Plots:** Plots the distribution of key features to identify skewness or unusual patterns in the data.
+![Distributions_Plots](Distributions_Plots.png)
+
+* **Moving Averages:** Helps to smooth out price data and highlight trends by plotting moving averages.
+![Moving_Averagaes](Moving_Averagaes.png)
