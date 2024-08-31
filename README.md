@@ -14,7 +14,7 @@ This project aims to predict the next day's closing price of a stock using histo
 - [Streamlit Application](#streamlit-application)
 - [Results](#results)
 - [Conclusion](#conclusion)
-- [Contributing](#contributing)
+- [Contributions](#contributions)
 - [License](#license)
 
 ## Overview
@@ -135,7 +135,7 @@ The LSTM model demonstrated a reasonable ability to predict the next day's stock
 ## Conclusion
 The project successfully demonstrates the use of LSTM networks for time-series forecasting in stock price prediction. With further enhancements and hyperparameter tuning, the model's accuracy can be improved. The Streamlit app adds a layer of interactivity, allowing users to explore the model's predictions with ease.
 
-## Contributing
+## Contributions
 Contributions are welcome! If you have any suggestions or improvements, please open an issue or submit a pull request.
 
 ## License
