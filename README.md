@@ -107,3 +107,20 @@ To run these notebooks, open them in Google Colab, Jupyter Notebook or Jupyter L
 
 * **Moving Averages:** Helps to smooth out price data and highlight trends by plotting moving averages.
 ![Moving_Averagaes](Moving_Averagaes.png)
+
+## Model Building 
+**Model Building** involved constructing and training an LSTM network tailored for time-series forecasting. The following steps were performed:
+
+* **Data Preparation:** The dataset was split into sequences, with each sequence representing the input features required to predict the next day's price.
+* **LSTM Model Construction:** The model architecture was defined with input, hidden, and output layers.
+* **Model Training:** The model was trained on the training data using the Adam optimizer and Mean Squared Error (MSE) as the loss function.
+
+## Model Evaluation
+**Model Evaluation** is critical to understand the model's performance and its ability to generalize to unseen data. The following steps were included:
+
+* **Load and Scale Data:** The preprocessed data was loaded and scaled using the same scaler used during training.
+* **Make Predictions:** The model was used to predict the next day's price for both training and testing datasets.
+* **Inverse Transform Predictions:** To interpret the predictions, they were inverse transformed back to their original scale.
+* **Calculate Metrics:** Performance metrics were computed to evaluate the model. The computed performance metrics are:  **MAE = 0.01**, **MSE = 0.00** and **RMSE = 0.01**
+* **Visualize Predictions vs. Actual:** A plot was created to compare the predicted prices against actual prices, providing a visual assessment of the model's performance.
+![Actual_vs_Predicted_closing_prices_for_test_dataset](Actual_vs_Predicted_closing_prices_for_test_dataset.png)
