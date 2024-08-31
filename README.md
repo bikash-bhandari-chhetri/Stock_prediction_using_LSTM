@@ -124,3 +124,22 @@ To run these notebooks, open them in Google Colab, Jupyter Notebook or Jupyter L
 * **Calculate Metrics:** Performance metrics were computed to evaluate the model. The computed performance metrics are:  **MAE = 0.01**, **MSE = 0.00** and **RMSE = 0.01**
 * **Visualize Predictions vs. Actual:** A plot was created to compare the predicted prices against actual prices, providing a visual assessment of the model's performance.
 ![Actual_vs_Predicted_closing_prices_for_test_dataset](Actual_vs_Predicted_closing_prices_for_test_dataset.png)
+
+## Streamlit Application
+The Streamlit Application provides an interactive interface where users can input stock data and receive a prediction for the next day's price. The app loads the trained model and scaler to preprocess the input data and make predictions.
+![Streamlit_UI](Streamlit_UI.png)
+
+## Results
+The LSTM model demonstrated a reasonable ability to predict the next day's stock price based on the historical data provided. The Mean Squared Error (MSE), Mean Absolute Error (MAE) and Root Mean Squared Error (RMSE) were used to evaluate the model's performance, and the predictions were close to the actual values, indicating a good model fit.
+
+## Conclusion
+The project successfully demonstrates the use of LSTM networks for time-series forecasting in stock price prediction. With further enhancements and hyperparameter tuning, the model's accuracy can be improved. The Streamlit app adds a layer of interactivity, allowing users to explore the model's predictions with ease.
+
+## Contributing
+Contributions are welcome! If you have any suggestions or improvements, please open an issue or submit a pull request.
+
+## License
+
+This project is licensed under a personal license by Gupta Bahadur Bhandari. You are free to use, modify, and distribute this project for personal and educational purposes. However, commercial use is prohibited without explicit permission from the author.
+
+© 2024 Gupta Bahadur Bhandari. All rights reserved.
