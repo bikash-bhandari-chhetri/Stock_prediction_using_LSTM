@@ -35,18 +35,18 @@ The stock price prediction project is designed to forecast the next day's closin
 3. **Install the required dependencies:**
 pip install -r requirements.txt
 4. **Ensure you have the following files in your project directory:**
-* Stock_Prediction_using_LSTM(Data_Cleaning).ipynb: Jupyter notebook for data cleaning
-* Stock_Prediction_using_LSTM(Data_Preprocessing).ipynb: Jupyter notebook for data preprocessing
-* Stock_Prediction_using_LSTM(Data_Visualization).ipynb: Jupyter notebook for data visualization
-* Stock_Prediction_using_LSTM(Model_Building_and_Training)ipynb.ipynb: Jupyter notebook for model building   and training
-* Stock_Prediction_using_LSTM(Model_Evaluation_and_Prediction).ipynb: Jupyter notebook for model evaluation and prediction
-* scaler.pkl: Scaler object for data normalization
-* lstm_stock_price_model.keras: Trained LSTM model
-* app.py: Streamlit app script
-* stock_data.csv: Original dataset
-* cleaned_stock_data.csv: Cleaned dataset
-* preprocessed_stock_data.csv: Preprocessed dataset
-* requirements.txt: txt file containing all the required dependencies
+* *Stock_Prediction_using_LSTM(Data_Cleaning).ipynb:* Jupyter notebook for data cleaning
+* *Stock_Prediction_using_LSTM(Data_Preprocessing).ipynb:* Jupyter notebook for data preprocessing
+* *Stock_Prediction_using_LSTM(Data_Visualization).ipynb:* Jupyter notebook for data visualization
+* *Stock_Prediction_using_LSTM(Model_Building_and_Training)ipynb.ipynb:* Jupyter notebook for model building   and training
+* Stock_Prediction_using_LSTM(Model_Evaluation_and_Prediction).ipynb:* Jupyter notebook for model evaluation and prediction
+* *scaler.pkl:* Scaler object for data normalization
+* *lstm_stock_price_model.keras:* Trained LSTM model
+* *app.py:* Streamlit app script
+* *stock_data.csv:* Original dataset
+* *cleaned_stock_data.csv:* Cleaned dataset
+* *preprocessed_stock_data.csv:* Preprocessed dataset
+* *requirements.txt:* txt file containing all the required dependencies
 
 ## Usage
 **Running Notebooks**
